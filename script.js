@@ -13,9 +13,9 @@ data = [{
     'desc': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, reiciendis architecto numquam consectetur fugiat eaque.'
 
 }]
-var container = document.querySelector('.container-project')
+var container = document.querySelector('.container-project');
 
-data.forEach(Element => {
+data.forEach(element => {
     container.innerHTML +=
     `<div class="project">
     <div class="img-project">
